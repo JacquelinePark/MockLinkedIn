@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Home from "./components/home";
 import NavBar from "./components/navbar";
 // const Route       = ReactRouterDOM.Route;
 // const HashRouter = ReactRouterDOM.HashRouter;

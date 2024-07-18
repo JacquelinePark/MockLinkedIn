@@ -1,5 +1,7 @@
 .App {
   text-align: center; /* Changed the text alignment of the page*/
+  color:gray;
+  column-count: 2;
 }
 
 .App-logo {
@@ -14,14 +16,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100mm;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 60px;
+  color: rgb(186, 71, 60);
+  
+  padding-top: 20px;
 }
 
 .App-link {

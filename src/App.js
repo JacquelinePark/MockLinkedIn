@@ -5,19 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <p>Welcome to your professional community</p>
       </header>
+      <p> Add login buttons here</p>
+      <p>By clicking Continue to join or sign in, you agree to LinkedIn's User Agreement, Privacy Policy, and Cookie Policy. </p>
+      <img src={require("./images/LinkedIn Image.png")} style={{ width: 750 }}/>
+      
+      
     </div>
   );
 }
