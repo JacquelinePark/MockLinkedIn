@@ -1,5 +1,3 @@
-// Add logo to the left side
-
 import "./navbar.css";
 
 function NavBar() {
@@ -22,7 +20,7 @@ function NavBar() {
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="/">
                 <img
-                  src={require("../images/LinkedIn Logo.png")}
+                  src={require("../images/LinkedIn Logo.png")} //.. for parent directory (src), . for current directory (components) 
                   style={{ width: 130 }}
                 />
               </a>

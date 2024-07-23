@@ -1,0 +1,41 @@
+.firstsection {
+  text-align: center; /* Changed the text alignment of the page*/
+  color:gray;
+  column-count: 2;
+}
+
+.firstsection-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .firstsection-logo {
+    animation: firstsection-logo-spin infinite 20s linear;
+  }
+}
+
+.firstsection-header {
+  min-height: 100mm;
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: rgb(186, 71, 60);
+  
+  padding-top: 20px;
+}
+
+.firstsection-link {
+  color: #61dafb;
+}
+
+@keyframes firstsection-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
