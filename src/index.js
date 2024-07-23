@@ -9,6 +9,9 @@ import Learning from "./components/learning";
 import People from "./components/people";
 import Jobs from "./components/jobs";
 import Games from "./components/games";
+import Useragreement from './components/useragreement';
+import Privacy from './components/privacypolicy';
+import Cookies from './components/cookiepolicy';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,12 +19,15 @@ root.render(
     <NavBar />
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Firstsection/>}/>
+        <Route path="/" element={<Firstsection />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/people" element={<People />} />
         <Route path="/learning" element={<Learning />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/games" element={<Games />} />
+        <Route path="/useragreement" element={<Useragreement />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/cookies" element={<Cookies />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

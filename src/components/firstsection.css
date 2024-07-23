@@ -31,6 +31,28 @@
   color: #61dafb;
 }
 
+a {
+  color: #0d6efd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.holderheader {
+  align-items: center;
+  justify-content: center;
+}
+
+.loginbutton {
+  border: groove;
+  border-color: gray;
+  border-radius: 5rem;
+
+}
+.loginbutton:hover {
+  border: solid;
+}
+
+
 @keyframes firstsection-logo-spin {
   from {
     transform: rotate(0deg);

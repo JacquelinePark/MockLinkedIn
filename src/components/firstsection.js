@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './firstsection.css';
 
 function Firstsection() {
@@ -6,9 +7,12 @@ function Firstsection() {
       <header className="firstsection-header">
       <p>Welcome to your professional community</p>
       </header>
-      <p> Add login buttons here</p>
-      <p>By clicking Continue to join or sign in, you agree to LinkedIn's User Agreement, Privacy Policy, and Cookie Policy. </p>
+      <body>
+      <button className='loginbutton' id="googlelogin">Continue with Google</button>
+      <p>By clicking Continue to join or sign in, you agree to LinkedIn's <a href="/useragreement">User Agreement</a>, <a href="/privacy">Privacy Policy</a>, and <a href='/cookies'>Cookie Policy</a>. </p>
+      </body>
       <img src={require("../images/LinkedIn Image.png")} style={{ width: 750 }}/>
+     
       
       
     </div>

@@ -1,7 +1,9 @@
+import './firstsection.css';
+
 function Jobs() {
     return (
       <div>
-        <header>Searching for a jobs!</header>
+        <header>Searching for jobs!</header>
       </div>
     );
   }
