@@ -12,6 +12,7 @@ import Games from "./components/games";
 import Useragreement from './components/useragreement';
 import Privacy from './components/privacypolicy';
 import Cookies from './components/cookiepolicy';
+import Login from "./components/login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,6 +29,7 @@ root.render(
         <Route path="/useragreement" element={<Useragreement />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/cookies" element={<Cookies />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
